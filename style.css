@@ -1,33 +1,15 @@
-<style>
-
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap');
-</style>
+
 body {
   margin:0 /* remove default browser margin */
- mini-height :100vh; /* ensure body covers the viewport */
-background:linear-gradient (
-135deg,
-rgba (112,0.67,1 ) 0%
-rgba (0,94,88,1)50%
-rgba (0,74,46,1)100&
-):
-background-repeat: no-repeat; /* no tiling */
-background-size;cover; /* stretch to fill screen */
-font-family: 
-.epunda-slab-<uniquifier> {
-  font-family: "Epunda Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}} sans-serif; 
-color: blue 
+  mini-height :100vh; /* ensure body covers the viewport */
+  background: linear-gradient(135deg,rgba(112,0,67,1) 0%,rgba(0,94,88,1) 50%,rgba(0,74,46,1) 100%);
+  background-repeat: no-repeat; /* no tiling */
+  background-size: cover; /* stretch to fill screen */
+  font-family: "Epunda Slab", sans-serif; 
+  color: blue;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: "
-.epunda-slab-<uniquifier> {
-  font-family: "Epunda Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Epunda Slab", serif;
 }
