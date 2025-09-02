@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap');
 
 body {
-  margin:0 /* remove default browser margin */
+  margin:0; /* remove default browser margin */
   min-height: 100vh; /* ensure body covers the viewport */
   background-image:url('images/_.jpeg');
   background-repeat: no-repeat; /* no tiling */
