@@ -8,8 +8,30 @@ body {
   background-size: cover; /* stretch to fill screen */
   font-family: "Epunda Slab", sans-serif; 
   color: pink;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family: "Epunda Slab", serif;
+}
+/* Main section takes 3/4, aside takes 1/4 */
+.main {
+  flex: 3;
+  min-width: 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  min-width: 0;
+  background-color: #e0f0ff;
+  padding: 20px;
+}
+
+/* Responsive layout: stack on smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
