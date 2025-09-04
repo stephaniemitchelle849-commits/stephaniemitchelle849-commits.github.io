@@ -19,14 +19,16 @@ font-family: "Epunda Slab", serif;
 .main {
   flex: 3;
   min-width: 0;
-  background-color: #f9f9f9;
+  background-color:purple
+  border-radius:24px;
   padding: 20px;
 }
 
 aside {
   flex: 1;
   min-width: 0;
-  background-color: #e0f0ff;
+  background-color:#A25F9E;
+  border-radius:24px
   padding: 20px;
 }
 
