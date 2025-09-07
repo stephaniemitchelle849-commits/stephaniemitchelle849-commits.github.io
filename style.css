@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
   font-family: "Epunda Slab", sans-serif; 
-  color: pink;
+  color: dark pink;
   display: flex;
   flex-wrap: wrap; /* lets content wrap on small screens */
 }
