@@ -3,7 +3,7 @@
 body {
   margin:0; /* remove default browser margin */
   min-height: 100vh; /* ensure body covers the viewport */
-  background-image:url('images/Lightpinkbackground.jpg ');
+  background-image:url('images/pink and gold.jpg');
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
   font-family: "Epunda Slab", sans-serif; 
