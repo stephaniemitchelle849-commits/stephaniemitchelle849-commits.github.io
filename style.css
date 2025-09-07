@@ -19,7 +19,7 @@ font-family: "Epunda Slab", serif;
 .main {
   flex: 3;
   min-width: 0;
-  background-color:blue
+  background-color:pink
   border-radius:24px;
   padding: 20px;
 }
