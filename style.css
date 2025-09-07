@@ -6,7 +6,7 @@ body {
   background-image:url('images/image_background.jpg ');
   background-repeat: no-repeat; /* no tiling */
   background-size: cover; /* stretch to fill screen */
-  font-family: "Epunda Slab", sans-serif; 
+  font-family: "Lobster", sans-serif; 
   color: purple;
   display: flex;
   flex-wrap: wrap; /* lets content wrap on small screens */
