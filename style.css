@@ -1,40 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=ZCOOL+XiaoWei&display=swap');
+
+
+
 
 body {
-  margin:0; /* remove default browser margin */
-  min-height: 100vh; /* ensure body covers the viewport */
-  background-image:url('images/image_background.jpg ');
-  background-repeat: no-repeat; /* no tiling */
-  background-size: cover; /* stretch to fill screen */
-  font-family: "Lobster", sans-serif; 
-  color: purple;
-  display: flex;
-  flex-wrap: wrap; /* lets content wrap on small screens */
+background-color:#F6E3F0;
+font-family: "ZCOOL XiaoWei", sans-serif; 
+margin:0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: "dancing script",cursive ;
-}
-/* Main section takes 3/4, aside takes 1/4 */
-.main {
-  flex: 3;
-  min-width: 0;
-  background-color:pink
-  border-radius:24px;
-  padding: 20px;
+
+
+
+
+nav {
+  width: 100%;
+  background-color: #EFBCDF;
+  padding: 20px 0;
 }
 
-aside {
-  flex: 1;
-  min-width: 0;
-  background-color:#f4ebfc;
-  border-radius:24px
-  padding: 20px;
+nav .container {
+  text-align: center;
 }
 
-/* Responsive layout: stack on smaller screens */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 15px;
 }
+
+
+
+
+.home-content {
+  background-color: #EFBCDF;
+  color: #C61A9E;
+  padding: 30px 50px;
+  width: 1000px;
+  max-width: 100%;
+  margin: 30px auto;
+  box-sizing: border-box;
+  text-align: left; /* optional: for better paragraph readability */
+}
+
+
+
+footer { 
+display:flex;
+justify-content:space-between; 
+padding:30px 50px;
+
+background-color:#EFBCDF; 
+color:#C61A9E;
+} 
+
+
+img.me {
+  width: 600px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+.titlename {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.titlename img {
+  width: 350px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
