@@ -26,15 +26,22 @@
 <h2> Want to work together or Learn more about my practice! </h2>
 <h1> Drop a message below:</h1>
   
-<p> FIRST NAME: </p> 
+<form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="First Name" required><br><br>
 
-<p> LAST NAME : </p> 
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="Last Name" required><br><br>
 
-<p> EMAIL: </p>
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" name="Email" required><br><br>
 
-<p> LEAVEA A MESSAGE: </p> 
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="Message" rows="5" required></textarea><br><br>
 
-<h2> SEND : </h2> 
+  <button type="submit">Send</button>
+</form>
+ 
 
 
 
