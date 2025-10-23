@@ -115,12 +115,12 @@ img.me {
   border-radius: 16px;
   transition: transform 0.5s ease;
 }
-
+/*
 .slide img:hover {
   transform: scale(1.1); /* pure zoom, no tilt or perspective */
   z-index: 10;
 }
-
+*/
 .nav {
   position: absolute;
   top: 50%;
