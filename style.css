@@ -45,7 +45,7 @@ nav a {
   text-align: left; /* optional: for better paragraph readability */
 }
 
-.centered} text/dash:centered;
+.centered {text-aligned:center;
 
 footer { 
 display:flex;
