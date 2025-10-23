@@ -86,7 +86,7 @@ img.me {
   margin: 0 auto;
   border-radius: 16px;
   background-color: #EFBCDF;
-  overflow: hidden; /* keep buttons aligned */
+  overflow: hidden; /* keep buttons tidy */
 }
 
 .carousel-track {
@@ -95,19 +95,18 @@ img.me {
   scroll-behavior: smooth;
   overflow-x: auto;
   scrollbar-width: none;
-  padding: 2rem 0; /* space so popouts don’t clip at top/bottom */
 }
 .carousel-track::-webkit-scrollbar { display: none; }
 
 .slide {
-  flex: 0 0 100%;
+  flex: 0 0 100%;                /* each slide fills full container width */
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  perspective: 1000px; /* create 3D space for each image */
-  overflow: visible; /* allow the pop to extend */
+  perspective: 1000px;           /* local 3D stage */
   position: relative;
+  overflow: visible;
 }
 
 .slide img {
@@ -126,21 +125,19 @@ img.me {
   z-index: 10;
 }
 
-
-  .nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background:#C61A9E;
-    color: white;
-    font-size: 2rem;
-    padding: 0.25em 0.5em;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 2;
-  }
-  .nav.prev { left: 10px; }
-  .nav.next { right: 10px; }
-  .nav:hover { opacity:0.7;}
-
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #C61A9E;
+  color: white;
+  font-size: 2rem;
+  padding: 0.25em 0.5em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+.nav.prev { left: 10px; }
+.nav.next { right: 10px; }
+.nav:hover { opacity: 0.7; }
