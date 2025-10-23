@@ -112,7 +112,7 @@ img.me {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.4);
+    background:#C61A9E;
     color: white;
     font-size: 2rem;
     padding: 0.25em 0.5em;
