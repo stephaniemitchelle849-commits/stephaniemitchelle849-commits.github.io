@@ -84,7 +84,7 @@ img.me {
     position: relative;
     max-width: 900px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible; /* allow hovered images to extend */
     border-radius: 16px;
   background-color:#EFBCDF;
 }
