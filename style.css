@@ -108,6 +108,10 @@ img.me {
     display: block;
   }
 
+.carousel-track img:hover {
+  
+}
+
   .nav {
     position: absolute;
     top: 50%;
