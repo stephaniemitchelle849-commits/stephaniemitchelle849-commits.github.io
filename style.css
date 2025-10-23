@@ -74,6 +74,11 @@ img.me {
   display: inline-block;
 }
 
+.titlename img:hover {
+  transform: scale(1.1); 
+  z-index: 10;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -117,7 +122,7 @@ img.me {
 }
 /*
 .slide img:hover {
-  transform: scale(1.1); /* pure zoom, no tilt or perspective */
+  transform: scale(1.1); 
   z-index: 10;
 }
 */
